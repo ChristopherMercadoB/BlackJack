@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+body{
+    background-color: rgb(8, 75, 8);
+}
+
+
+.cartas{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartas img{
+    max-width: 10rem;
+}
+
+.carta{
+    padding: 1rem
+}
+
+.carta img:hover{
+    transform: scale(1.1);
+}
+
+
+.b-group{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-outline-danger{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+
+.btn-outline-danger:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-outline-info{
+    border: 1px solid #3978ff;
+    color: #3978ff;
+    background-color: transparent;
+}
+
+.btn-outline-info:hover{
+    background-color: #3978ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+.carta-img{
+    position: relative;
+    left: 150px;
+    margin-left: -75px;
+}
+
+#jugador-cartas, #computador-cartas{
+    min-height: 10rem;
+}
